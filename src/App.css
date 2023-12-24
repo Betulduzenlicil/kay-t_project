@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Rubik+Distressed&display=swap');
+body{
+  background-color: beige;
+}
+
+  
+.header{
+  background-color: rgba(122, 156, 156, 0.343);
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.header-img{
+  background-color: rgba(0, 255, 255, 0.343); 
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px white;
+}
+.headerh3{
+ font-family:Rubik Bubbles ;
+ color: brown;
+ box-shadow: 5px 5px 5px white;
+}
+
+.categoryBtn{
+  
+  margin-right: 2rem;
+  padding: .7rem;
+  border-radius: 20px;
+  width: 150px;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(156, 205, 205);
+  border: none;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.card{
+  max-height: 300px;
+  min-height: 250px;
+  
+}
+.ınstImg{
+  height: 180px;
+  margin-top: .2rem;
+}
+.btnDiv{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 255, 0.303);
+  border-radius: 5px;
+}
+.btnDiv button{
+  background-color: rgba(184, 37, 37, 0.978);
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: .2rem;
+  border-radius: 5px;
+  margin: .2rem;
+}
+.ınstructor{
+  background-color: rgb(135, 159, 151);
+  border-radius: 10px;
+}
+.cardArka{
+  background-color: rgba(0, 0, 255, 0.303);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+h4{
+  border-radius: 5px;
+  padding: .2rem;
+}
+.lessonCard{
+  background-color: rgb(135, 159, 151);
+  line-height: 10px;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 5px 5px 5px black;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  align-items: center;
+  
+}
+.col{
+
+}
+
+.cardOn{
+  background-color: rgba(155, 92, 92, 0.364);
+}
+.icon{
+  border-radius: 25px;
+  border: 1px solid red;
+  background-color: white;
+}
+.canvas{
+  background-color: rgba(127, 171, 171, 0.737);
+}
+ul{
+  background-color: rgba(165, 42, 42, 0.483);
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+li{
+  list-style-type: none;
+}
+.input input{
+  border-radius: 5px;
+  padding: .6rem;
+  max-width: 50%;
+  min-width: 25%;
+ border: none;
+  margin: auto;
+  
+}
